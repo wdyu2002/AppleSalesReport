@@ -1,0 +1,6 @@
+<project name="Build App Shell Jar" default="jar">
+	<target name="jar">
+		<copydir dest="bin" src="res"></copydir>
+    	<jar jarfile="AppleSalesReport.jar" basedir="bin" manifest="MANIFEST.MF"/>
+	</target>
+</project>
